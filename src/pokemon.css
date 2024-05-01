@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon{
+    
+    width: 20%;
+    
+    margin: 15px 15px;
+    box-sizing: border-box;
+
+}
+
+.poke-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    
+    
+    
+}
+
+.pokemon {
+  
+    width: calc(22% - 20px); /* Adjusted width to fit four cards in a row */
+    height: 300px;
+    margin: 25px 25px; /* Reduced margin for better spacing */
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+    border-radius: 5px;
+  }
+  
+  .poke-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap into a new row */
+    justify-content: space-around; /* Aligns cards evenly across the container */
+    width: 100%;
+    margin: 0 auto;
+    
+    padding: 5px; /* Added padding for spacing */
+    align-items: center;
+  }
+
+  img{
+    height: 150px;
+    width: 150px;
+  }
+  
